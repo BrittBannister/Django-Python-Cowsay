@@ -1,7 +1,14 @@
 <h1>Welcome to Cowsay!</h1>
+<a href="{% url 'homepage' %}"><button>Home.</button></a>
+<a href="{% url 'history' %}"><button>Recently Used.</button></a>
+
 
 <form action='' method = 'post'>
     {% csrf_token %}
     {{ form.as_p }}
     <input type = 'submit' value = 'Submit!'>
 </form>
+
+<pre>
+    {{ subprocess }}
+</pre>

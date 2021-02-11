@@ -18,7 +18,7 @@ from django.urls import path
 from cowsplay_app.views import index_view, history_view
 
 urlpatterns = [
-    path('', index_view),
-    path('history/', history_view),
+    path('', index_view, name = 'homepage'),
+    path('history/', history_view, name = 'history'),
     path('admin/', admin.site.urls),
 ]

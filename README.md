@@ -1,3 +1,8 @@
+# RESOURCS USED:
+https://stackoverflow.com/questions/2412770/good-ways-to-sort-a-queryset-django
+https://docs.python.org/3/library/subprocess.html
+https://en.wikipedia.org/wiki/Cowsay
+
 # http-forms-and-cows
 Not everything in computing has bindings for Python (as much as I would like that to be true), so it's important to learn how to work with the host system and pass details back and forth.
 

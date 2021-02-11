@@ -1,1 +1,11 @@
 <h1>{{message}}</h1>
+<a href="{% url 'homepage' %}"><button>Home.</button></a>
+<!-- <a href="{% url 'history' %}"><button>Recently Used.</button></a> -->
+
+<ul>
+    {% for cowsay in cowsays %}
+    <li>
+        {{cowsay}}
+    </li>
+    {% endfor %}
+</ul>
