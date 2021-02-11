@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from cowsplay_app.models import Cow_Model
+
+admin.site.register(Cow_Model)
