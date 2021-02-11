@@ -21,5 +21,5 @@ def index_view(request):
     return render(request, 'index.html', {'form': form})
 
 def history_view(request):
-    cows = Cow_Model.objects.all().order_by('-id')[:11]
+    cows = Cow_Model.objects.all().order_by('-id')[:10]
     return render(request, 'history.html', {'cowsays': cows})

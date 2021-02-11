@@ -1,6 +1,5 @@
-<h1>{{message}}</h1>
-<a href="{% url 'homepage' %}"><button>Home.</button></a>
-<!-- <a href="{% url 'history' %}"><button>Recently Used.</button></a> -->
+<h1>Last 10 Cowsays</h1>
+<a href="{% url 'homepage' %}"><button>Back to Home</button></a>
 
 <ul>
     {% for cowsay in cowsays %}
